@@ -15,7 +15,7 @@ namespace SantiagoDelgado3A.Tarea
             int mayor = 0;
             Console.WriteLine("Colocar la cantidad de numeros a ingresar: ");
             int n = int.Parse(Console.ReadLine());
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i <= n; i++)
             {
                 Console.WriteLine("Ingresar numero: ");
                 int valor = int.Parse(Console.ReadLine());
